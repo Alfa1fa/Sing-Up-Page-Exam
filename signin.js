@@ -1,5 +1,4 @@
-const Signup = document.querySelector(".login")
-const Name = document.querySelector("#name")
+const Signup = document.querySelector(".signup")
 const email = document.querySelector("#email")
 const pass = document.querySelector("#password")
 
