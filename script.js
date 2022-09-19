@@ -1,11 +1,9 @@
-< script >
-    // Get the modal
-    var modal = document.getElementById('id01');
+const firstRow = document.querySelector(".first-row")
+const secondRow = document.querySelector(".second-row")
+const thirdRow = document.querySelector(".third-row")
+const btn = document.querySelector(".btn")
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
-    } <
-    /script>
+function Signin() {
+    if (firstRow.value !== "" && secondRow.value !== "")
+        alert("welcome")
+}
